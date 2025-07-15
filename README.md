@@ -1,4 +1,5 @@
-# Kona SiteDefender Advanced Bypass Tamper Script Comprehensive evasion techniques collection Research and educational purposes only by Zzl0y
+# Kona SiteDefender Advanced Bypass Tamper Script 
+## Comprehensive evasion techniques collection Research and educational purposes only by Zzl0y
 * Multi-level tamper script designed to bypass Akamai's Kona SiteDefender WAF with sophisticated evasion techniques and adaptive payload transformation.
 
 
