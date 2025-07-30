@@ -1,4 +1,4 @@
-# Kona SiteDefender Advanced Bypass Tamper Script 
+## Kona SiteDefender Advanced Bypass Tamper Script 
 ## Comprehensive evasion techniques collection Research and educational purposes only by Zzl0y
 * Multi-level tamper script designed to bypass Akamai's Kona SiteDefender WAF with sophisticated evasion techniques and adaptive payload transformation.
 
@@ -68,12 +68,12 @@ TAMPER_DEBUG=1 TAMPER_LEVEL=3 sqlmap \
 
 ## 4. Level Selection Guide
 ```bash
-Level	 Use Case	            Target Environment	            Recommended Settings
-1	    Basic WAF, Testing	  Development, Light Security	    TAMPER_LEVEL=1
-2	    Standard Production	  Most Corporate WAFs	            TAMPER_LEVEL=2 (default)
-3	    Enhanced Security	    Strict Corporate, Government	  TAMPER_LEVEL=3 TAMPER_AGGRESSIVE=1
-4	    High-Security Targets	Financial, Military, Critical	  TAMPER_LEVEL=4 TAMPER_STEALTH=1
-5	    Maximum Evasion	      Hardened Environments, SOC	    TAMPER_LEVEL=5 TAMPER_AGGRESSIVE=1
+Lvl  Use Case             Target Environment	            Recommended Settings
+1    Basic WAF, Testing   Development, Light Security       TAMPER_LEVEL=1
+2    Standard Production  Most Corporate WAFs               TAMPER_LEVEL=2 (default)
+3    Enhanced Security    Strict Corporate, Government      TAMPER_LEVEL=3 TAMPER_AGGRESSIVE=1
+4    High Security        Financial,Military,Critical       TAMPER_LEVEL=4 TAMPER_STEALTH=1
+5    Maximum Evasion      Hardened Environments, SOC        TAMPER_LEVEL=5 TAMPER_AGGRESSIVE=1
 ```
 
 ## Hakamai.sh Automation Script
